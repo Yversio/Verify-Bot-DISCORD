@@ -4,11 +4,11 @@
 //Discord name: уνєяѕισ#9596 || Discord server: https://discord.gg/kxjCkBp
  
 const Discord = require('discord.js');
-const Token = 'xxxxx';
+const Token = 'xxxxx'; // change the xxxxx to your client token so you can use the bot
 const Client = new Discord.Client();
-const footer = "Luna Verification";
+const footer = "Yversio's Verification";
  
-const prefix = "-";
+const prefix = "-"; // I did the - but you can do whatever you like to use
  
  
 Client.on("ready", () => {
@@ -37,7 +37,7 @@ Client.on(`message`, function(message) {
                 },
                 timestamp: new Date()
             }})
-            message.delete(50 * 1000)
+            message.delete(50 * 1000) // Deletes the correct message. It's using ms instead of seconds. So that's why 50 * 1000
         } else message.delete() // Deletes the fake / incorrect messages
    
     };
