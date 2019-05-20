@@ -1,7 +1,7 @@
 //This bot is created by Yversio
 //If you have any further questions
 //Please contact me on discord
-//Discord name: уνєяѕισ#9596 || Discord server: https://discord.gg/kxjCkBp
+//Discord name: уνєяѕισ#9596 || Discord server: https://discord.gg/bqn466C
  
 const Discord = require('discord.js');
 const Token = 'xxxxx'; // change the xxxxx to your client token so you can use the bot
