@@ -24,7 +24,7 @@ Client.on("guildMemberAdd", member => {
 Client.on(`message`, function(message) {
     if (message.channel.name === "verify") { // The channel where they need to verify
         if (message.content === "-verify") { // The command to verify
-            const verifyRole = message.guild.roles.find(role => role.name === 'Lunars'); // The rank they get when they verify
+            const verifyRole = message.guild.roles.find(role => role.name === 'Verified'); // The rank they get when they verify
             var role = message.guild.roles.find(role => role.name === 'NonV'); // This removes the 'NonV' rank
             message.member.addRole(verifyRole);
             message.member.removeRole(role);
