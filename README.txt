@@ -8,3 +8,6 @@ I used the channel name 'verify'. You could make it so only the players with the
 get deleted once they verified correctly. 
 
 If you have any further questions please contact me. My discord is in the sourcecode. 
+Also use this code if you didn't download Discord.JS already.
+
+npm install --save discord.js
